@@ -39,6 +39,6 @@ testem.log
 Thumbs.db
 
 # Rust
-/target
-/pkg
+target
 Cargo.lock
+temp

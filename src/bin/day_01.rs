@@ -26,8 +26,7 @@ fn main() {
 }
 
 fn part_01(input: &HashSet<u64>) -> u64 {
-    let mut clone = input.clone();
-    for x in clone.drain() {
+    for x in input {
         let y = 2020 - x;
         if input.contains(&y) {
             return x * y;
